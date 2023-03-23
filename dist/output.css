@@ -969,7 +969,7 @@ video {
 
 .navbar-fixed {
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.4;
   --tw-backdrop-blur: blur(4px);
