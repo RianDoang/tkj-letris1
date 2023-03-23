@@ -1020,7 +1020,7 @@ video {
   position: absolute;
   top: 0;
   z-index: -100;
-  background-image: url(/src/img/hero\ section.jpg);
+  background-image: url(./img/hero\ section.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
