@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .navbar-fixed {
   @apply fixed z-[999] bg-white bg-opacity-40 backdrop-blur-sm dark:bg-slate-500 dark:bg-opacity-50;
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
@@ -24,6 +23,42 @@
   @apply origin-bottom-left -rotate-45;
 }
 
+/* Partner 1 */
+.arrow-top1 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.btn-lihat1 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+}
+
+/* Partner 2 */
+.arrow-top2 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.btn-lihat2 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+}
+
+/* Partner 3 */
+.arrow-top3 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.btn-lihat3 {
+  transform: translateY(-7px);
+  transition: 0.2s;
+}
+
 #hero-section {
   width: 100%;
   height: 100vh;
@@ -40,14 +75,36 @@
 .cash {
   position: absolute;
   font-size: 12px;
+  cursor: default;
+  padding: 10px;
   font-weight: bold;
-  transform: translate(0, 2px);
-  
+  transform: translate(-8px, -2px);
+  z-index: 3;
   transition: 0.2s;
   opacity: 0;
 }
 
 .cash:hover {
   opacity: 100;
-  transform: translate(0, -10px);
+  transform: translate(-8px, -20px);
+}
+
+.bg-rian {
+  height: 140px;
+  background-image: url(/src/img/TKJ\ Logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.bg-rian1 {
+  height: 140px;
+  background-image: url(/src/img/hero\ section.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  border-radius: 100%;
 }
