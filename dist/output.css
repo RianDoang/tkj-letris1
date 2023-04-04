@@ -847,8 +847,8 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-2 {
@@ -1333,7 +1333,7 @@ video {
 
 .bg-rian {
   height: 140px;
-  background-image: url(/src/img/TKJ\ Logo.jpg);
+  background-image: url(../src/img/TKJ\ Logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1343,7 +1343,7 @@ video {
 
 .bg-rian1 {
   height: 140px;
-  background-image: url(/src/img/hero\ section.jpg);
+  background-image: url(../src/img/hero\ section.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
